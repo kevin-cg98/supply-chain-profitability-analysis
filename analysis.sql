@@ -35,15 +35,29 @@ GROUP BY  ship_mode
 
 -- 4. Loss-Making Products
 SELECT   product_name,
-         SUM(profit) AS total_profit
+         SUM(profit) AS total_profit,
          AVG(discount) AS avg_discount
 FROM     orders
 GROUP BY product_name
 HAVING   total_profit < 0
 ORDER BY total_profit ASC;
 
+-- 5. Number of Products reporting losses by sub-category
 
--- 5. Category Performance
+SELECT    sub_category,
+          COUNT (product_name) AS loss_products
+
+FROM      (SELECT    sub_category,
+                     product_name,
+                     sum(profit) AS total_profit,
+           FROM      orders
+           GROUP BY  sub_category, product_name) 
+WHERE    total_profit<0 
+GROUP BY sub_category
+ORDER BY loss_products DESC
+
+
+-- 6. Category Performance
 SELECT   category,
          SUM(sales) AS total_sales,
          SUM(profit) AS total_profit
@@ -53,7 +67,7 @@ FROM     orders
 GROUP BY category;
 
 
--- 6. Discount Impact Analysis
+-- 7. Discount Impact Analysis
 SELECT   sub_category,
          AVG(discount) AS avg_discount,
          SUM(profit) AS total_profit
