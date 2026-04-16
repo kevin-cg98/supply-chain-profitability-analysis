@@ -1,4 +1,7 @@
--- Supply Chain Performance Analysis SQL Queries
+-- Author: Kevin Carvajal
+-- Project: Supply Chain Performance & Profitability Analysis
+-- Description: SQL queries used to analyze profitability, discount impact, and operational performance.
+
 
 -- 1. Profitability by Region
 SELECT   region, 
