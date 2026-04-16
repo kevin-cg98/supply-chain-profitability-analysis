@@ -19,10 +19,13 @@ To identify pricing inefficiencies, loss-making products, and operational patter
 - Excel (Data Cleaning & Exploration)
 
 ## Key Insights
-- Higher discount levels are strongly associated with reduced profit margins
+- In 66.7% of the cases, high discount (>21%) levels are strongly associated with negative or null margin profits.
+- While 12 out the 13 possity margin pronfit sub-categories have a low average disccount than 16%, top 3 under 8%.
 - Certain sub-categories show significant margin erosion despite strong sales performance
 - Regional differences highlight inefficiencies in pricing and operational strategies
-- Several products consistently generate negative profit, indicating potential pricing or cost issues
+- 300 products consistently generate negative profit 81% present in the furniture and office supply categories, indicating potential pricing or cost issues
+- Out if these 300 products, just 4 sub-categories represent the 51%, binders, tables, storage and bookcases with 50, 42, 39 and 33 products respectively
+- 
 
 ## Recommendation
 Reduce discount levels in underperforming sub-categories and temporarily discontinue the lowest-performing products while conducting targeted analysis to optimize pricing and improve margins.
