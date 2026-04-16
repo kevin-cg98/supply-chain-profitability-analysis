@@ -19,13 +19,13 @@ To identify pricing inefficiencies, loss-making products, and operational patter
 - Excel (Data Cleaning & Exploration)
 
 ## Key Insights
-- In 66.7% of the cases, high discount (>21%) levels are strongly associated with negative or null margin profits.
-- While 12 out the 13 possity margin pronfit sub-categories have a low average disccount than 16%, top 3 under 8%.
-- Certain sub-categories show significant margin erosion despite strong sales performance
-- Regional differences highlight inefficiencies in pricing and operational strategies
-- 300 products consistently generate negative profit 81% present in the furniture and office supply categories, indicating potential pricing or cost issues
-- Out if these 300 products, just 4 sub-categories represent the 51%, binders, tables, storage and bookcases with 50, 42, 39 and 33 products respectively
-- 
+- In 66.7% of of sub-categories, high discount levels (>21%) are strongly associated with negative or near-zero profit margins.
+- 12 out of 13 profitable sub-categories maintain an average discount below 16%, with the top 3 remaining under 8%.
+- Certain sub-categories show significant margin erosion despite strong sales performance.
+- Regional differences highlight inconsistencies in pricing and operational strategies that impact overall profitability.
+- Approximately 300 products consistently generate negative profit, with 81% concentrated in the Furniture and Office Supplies categories, indicating structural pricing or cost issues.
+- Of these loss-making products, just four sub-categories—Binders (50), Tables (42), Storage (39), and Bookcases (33)—account for 51% of the total.
+- Eliminating the 15 least profitable products would result in savings of approximately $35,000, increasing to nearly $70,000 when excluding the 100 least profitable products.
 
 ## Recommendation
 Reduce discount levels in underperforming sub-categories and temporarily discontinue the lowest-performing products while conducting targeted analysis to optimize pricing and improve margins.
