@@ -3,6 +3,9 @@
 ## Overview
 This project analyzes the impact of discounting on profitability across regions and sub-categories using Tableau, SQL, and Excel.
 
+## SQL Analysis
+Key SQL queries used in this project can be found in the [analysis.sql](analysis.sql) file.
+
 ## Objective
 To identify pricing inefficiencies, loss-making products, and operational patterns affecting profit margins.
 
